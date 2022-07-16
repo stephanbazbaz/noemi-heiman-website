@@ -40,6 +40,12 @@
 }
 
 .title {
+    font-size: 34px;
+    font-weight: 400;
+    margin: 0;
+    text-align: center;
+}
+.sub-title {
     font-size: 30px;
     margin: 0;
     text-align: center;
