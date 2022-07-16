@@ -24,7 +24,8 @@
 }
 
 .main-text {
-    width: 635px;
+    width: 100%;
+    max-width: 778px;
     text-align: center;
     padding: 0 15px;
     box-sizing: border-box;
@@ -40,6 +41,8 @@
 
 .title {
     font-size: 30px;
+    margin: 0;
+    text-align: center;
 }
 
 body {
