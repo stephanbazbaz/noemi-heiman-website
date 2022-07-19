@@ -97,7 +97,7 @@ b {
 
 @font-face {
     font-family: 'open-sans';
-    src: URL('./Assets/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf');
+    src: URL('./Assets/Open_Sans/static/OpenSans/OpenSans-Regular.ttf');
 }
 
 @font-face {
