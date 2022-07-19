@@ -50,6 +50,11 @@
     text-align: center;
 }
 
+.text {
+    margin: 0;
+
+}
+
 .sub-title {
     font-size: 30px;
     margin: 0;
@@ -62,9 +67,20 @@ body {
     font-size: 18px;
     line-height: 1.6;
     letter-spacing: 0.9px;
-    font-family: "Roboto", "Arial", "sans-serif";
+    font-family: open-sans;
     direction: rtl;
     padding-bottom: 80px;
+}
+
+.conflicts {
+    margin: 0;
+    padding: 0;
+    font-family: open-sans-bold;
+
+}
+
+b {
+    font-weight: 700;
 }
 
 @media (max-width: 490px) {
@@ -77,4 +93,14 @@ body {
     .main-text {
         width: 350px;
     }
+}
+
+@font-face {
+    font-family: 'open-sans';
+    src: URL('./Assets/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf');
+}
+
+@font-face {
+    font-family: 'open-sans-bold';
+    src: URL('./Assets/Open_Sans/static/OpenSans/OpenSans-Bold.ttf');
 }
